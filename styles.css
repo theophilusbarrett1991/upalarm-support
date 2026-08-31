@@ -233,6 +233,11 @@ h2 {
   font-size: 0.84rem;
 }
 
+.meta a,
+.document-section a {
+  overflow-wrap: anywhere;
+}
+
 .support-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
